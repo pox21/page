@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preload" href="fonts/roboto/Roboto-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="fonts/roboto/Roboto-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="fonts/roboto/Roboto-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="icon" type="image/svg" sizes="32x32" href="img/logo.svg">
+  <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/jquery.formstyler.css">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="fonts/roboto/roboto.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Frontend-Разработчик и Web-Верстальщик</title>
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <div class="header-box">
+      <button class="header-box__brg"><span class="header-box__brg-item"></span></button>
+      <nav class="header-box__menu">
+        <a class="header-box__link" href="#section">Услуги</a>
+        <a class="header-box__link" href="#content">Портфолио</a>
+        <a class="header-box__link" href="#aside">Стоимость</a>
+      </nav>
+      <div class="header__menu__contacts header-box__contacts">
+        <a class="header-box__phone" id="phone" href="tel:+77777777777">+7 (777) 777-77-77</a>
+        <button class="header-box__phone-call btn call">Заказать звонок</button>
+        <button class="header-box__call call"></button>
+      </div>
+    </div>
+    <div class="header-flex-container">
+      <div class="header-info">
+        <img class="header-info__img" src="img/man2.png" alt="man" id="man">
+        <div class="header-info__title">
+          <h1 class="header-info__name">Дмитрий Алексеев</h1>
+          <h3 class="header-info__profession">Frontend-разработчик и Web-верстальщик</h3>
+          <a class="header-info__btn" href="#section" id="btn">Узнать больше</a>
+        </div>
+      </div>
+      <div class="header-img">
+        <img class="header-img__img" src="img/man.png" alt="man">
+      </div>
+    </div>
+    <div class="header-elements">
+      <div class="header-elements__element-1 element anim">{ }</div>
+      <div class="header-elements__element-2 element anim">&lt;div&gt;</div>
+      <div class="header-elements__element-3 element anim">#</div>
+      <div class="header-elements__element-4 element anim">&lt;div&gt;</div>
+      <div class="header-elements__element-5 element anim">&lt;/&gt;</div>
+      <div class="header-elements__element-6 element anim">&lt;/&gt;</div>
+    </div>
+  </div>
+</header>
+<main>
+  <section class="section-info" id="section">
+    <div class="container">
+      <h2 class="caption">Что я делаю</h2>
+      <div class="row">
+        <figure class="row-items">
+          <img src="img/tools-and-utensils.png">
+          <figcaption class="row-items__text">Вёрстка лендинг–страниц и&nbsp;сайтов&nbsp;любой&nbsp;сложности
+          </figcaption>
+        </figure>
+        <figure class="row-items">
+          <img src="img/responsive.png">
+          <figcaption class="row-items__text">Адаптивная вёрстка под все&nbsp;браузеры&nbsp;и&nbsp;устройства
+          </figcaption>
+        </figure>
+        <figure class="row-items">
+          <img src="img/programming.png">
+          <figcaption class="row-items__text">Frontend–разработка и&nbsp;программирование</figcaption>
+        </figure>
+        <figure class="row-items">
+          <img src="img/coding.png">
+          <figcaption class="row-items__text">Исправление и доработка существующей&nbsp;вёрстки</figcaption>
+        </figure>
+      </div>
+      <button class="section-info__btn buy">Узнать стоимость</button>
+    </div>
+  </section>
+  <section class="content" id="content">
+    <div class="container">
+      <h2 class="caption">Примеры моих работ</h2>
+      <div class="card">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><a href="https://pox21.github.io/backeray" target="_blank"><img
+                    src="img/slide/backeray.jpg" alt="slide"></a><span class="cards">Сайт пекарни</span></div>
+            <div class="swiper-slide"><a href="https://pox21.github.io/the-witcher" target="_blank"><img
+                    src="img/slide/witcher.jpg" alt="slide"></a><span class="cards">Сайт сериала</span></div>
+            <div class="swiper-slide"><a href="https://pox21.github.io/delivery" target="_blank"><img
+                    src="img/slide/delivery.jpg" alt="slide"></a><span class="cards">Сайт доставки еды</span></div>
+          </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <button class="buy-btn buy">Заказать проект</button>
+    </div>
+  </section>
+  <aside class="aside" id="aside">
+    <div class="container">
+      <h2>Адаптивная вёрстка под все устройства и&nbsp;браузеры от 1000 рублей за 4 часа. *</h2>
+      <p>* Срок и стоимость могут отличаться от заявленных и рассчитываются индивидуально,
+        в&nbsp;зависимости&nbsp;от&nbsp;сложности&nbsp;задач.</p>
+    </div>
+    <div class="aside-el">
+      <div class="aside-el__element-1 aside-element aside-anim">{ }</div>
+      <div class="aside-el__element-2 aside-element aside-anim">&lt;div&gt;</div>
+      <div class="aside-el__element-3 aside-element aside-anim">#</div>
+      <div class="aside-el__element-4 aside-element aside-anim">&lt;div&gt;</div>
+      <div class="aside-el__element-5 aside-element aside-anim">&lt;/&gt;</div>
+    </div>
+  </aside>
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-menu">
+      <nav class="footer-menu-list">
+        <ul>
+          <li><a href="#section">Услуги</a></li>
+          <li><a href="#content">Портфолио</a></li>
+          <li><a href="#aside">Стоимость</a></li>
+        </ul>
+      </nav>
+      <div class="footer-menu-contacts">
+        <ul>
+          <li><a class="" href="tel:+77777777777"><i class="fa fa-phone" aria-hidden="true"></i>+7 (777) 777-77-77</a>
+          </li>
+          <li><a class="" href="mailto:super_web-develover@mail.ru"><i class="fa fa-envelope" aria-hidden="true"></i>super_web-develover@mail.ru</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-menu-social">
+        <button class="footer__phone-call call">Заказать звонок</button>
+        <ul class="social">
+          <li><a class="vk" href="https://vk.com/share.php?url=http://pox21.ru" title="Поделиться ссылкой в Вконтакте"
+                 target="_blank">
+            <div class="icon"></div>
+          </a></li>
+          <li><a class="facebook" href="http://www.facebook.com/sharer" title="Поделиться ссылкой в Фейсбуке"
+                 target="_blank">
+            <div class="icon"></div>
+          </a></li>
+          <li><a class="tg" href="https://t.me/web1developer" title="Написать мне в телеграмм" target="_blank">
+            <div class="icon"></div>
+          </a></li>
+          <li><a class="instagramm" href="http://instagram.com/###?ref=badge" title="Поделиться ссылкой в Инстаграмме"
+                 target="_blank">
+            <div class="icon"></div>
+          </a></li>
+          <li><a class="twitter" href="http://twitter.com/share?text=" title="Поделиться ссылкой в Твиттере"
+                 target="_blank">
+            <div class="icon"></div>
+          </a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <a href="index.html">
+    <div class="author">© Web-Develover 2020</div>
+  </a>
+</footer>
+
+<div class="popup-call popup" data-modal="1">
+  <div class="popup__dialog">
+    <button class="popup__close call-btn"></button>
+    <h3 class="popup__title">Заинтересовало ?</h3>
+    <p class="popup__subtitle">Закажите звонок, заполнив форму ниже.</p>
+    <form class="popup__form">
+      <label class="popup__label-name">*Введите ваше имя</label>
+      <input type="text" class="popup__input-name" name="Имя">
+      <label class="popup__popup__label-phone">*Введите ваш номер</label>
+      <input class="popup__input-phone" type="tel" minlength="11" maxlength="18" placeholder="Телефон"
+             required="required" name="Телефон" inputmode="verbatim">
+      <small class="popup__smal">так же возможна связь по Whats'App, просто в поле имени, введите в скобочках
+        (Whats'App)</small>
+      <button class="popup__btn btn" type="submit">Заказать звонок</button>
+      <input type="hidden" name="project_name" value="mail">
+      <input type="hidden" name="admin_email" value="xpox21@bk.ru">
+      <input type="hidden" name="form_subject" value="title">
+    </form>
+  </div>
+</div>
+<div class="popup-buy popup" data-modal="2">
+  <div class="popup__dialog">
+    <button class="popup__close order-btn"></button>
+    <h3 class="popup__title">Заинтересовало ?</h3>
+    <p class="popup__subtitle">Закажите звонок, заполнив форму ниже.</p>
+    <form class="popup__form">
+      <label class="popup__label-name">*Введите ваше имя</label>
+      <input type="text" class="popup__input-name" name="Имя">
+      <label class="popup__popup__label-phone">*Введите ваш номер</label>
+      <input class="popup__input-phone" type="tel" minlength="11" maxlength="18" placeholder="Телефон"
+             required="required" name="Телефон" inputmode="verbatim">
+      <label class="popup__popup__label-email">*Введите ваш email</label>
+      <input class="popup__input-mail" type="email" placeholder="E-mail" required="required" name="mail">
+      <button class="popup__btn btn" type="submit">Оставить заявку</button>
+      <input type="hidden" name="project_name" value="email">
+      <input type="hidden" name="admin_email" value="xpox21@bk.ru">
+      <input type="hidden" name="form_subject" value="title">
+    </form>
+  </div>
+</div>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/jquery.inputmask.min.js"></script>
+<script src="js/jquery.formstyler.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
